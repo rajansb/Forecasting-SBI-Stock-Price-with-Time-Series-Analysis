@@ -1,0 +1,2 @@
+# Forecasting-SBI-Stock-Price-with-Time-Series-Analysis
+Our objective here is to: Forecast SBI Stock price with previous data of past 4.5 years. I checked Stationarity, Seasonality, Trend using Dicky-Fuller test, ACF and PACF plot. Then I Applied Time Series models – AR, MA, ARMA, ARIMA, SARIMA, Exponential Smoothing. I predicted stock price for next 45 days (2 months), based on best tuned model order=(1, 1, 1), seasonal order=(1,1,1,4) with RMSE 46.329.
